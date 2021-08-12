@@ -27,7 +27,7 @@ spec:
         - containerPort: 5432
           name: postgres
         volumeMounts:
-        - mounthPath: /var/lib/postgresql/data
+        - mountPath: /var/lib/postgresql/data
           name: db-data
       volumes:
       - name: db-data

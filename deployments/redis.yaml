@@ -22,7 +22,7 @@ spec:
         - containerPort: 6379
           name: redis
         volumeMounts:
-        - mounthPath: /data
+        - mountPath: /data
           name: redis-data        
       volumes:
         - name: redis-data
